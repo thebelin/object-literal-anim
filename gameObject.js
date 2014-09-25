@@ -44,7 +44,7 @@ var gameObject = {
 		// When you're in a method of an object, "this" refers to the object literal
 
 		// do an animation with the object's animate function
-		this.animate(this.thingToAnimate, {display: 'block'});
+		this.anim(this.thingToAnimate, {display: 'block'});
 	},
 
 	// This is startup code for the object, set stuff and establish event monitors
